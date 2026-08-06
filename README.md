@@ -1,58 +1,108 @@
-# AI Chatbot with Google GEMINI using Node.js
+# 🤖 Smart AI Chatbot (Groq API + Node.js)
 
-Welcome to the Google Gemini ChatBot project, built using Node.js! This application is designed to provide a seamless conversational experience, leveraging the capabilities of the Google Gemini API.
+A modern AI chatbot built with **Node.js**, **Express.js**, **Groq API**, and **EJS**. The application provides fast, intelligent conversations using Groq's LLMs with a clean and responsive interface.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
+---
 
+## 🚀 Features
 
-## Introduction
-The Google Gemini ChatBot is integrated in a Node.js application that interacts with users through natural language processing, offering a wide range of functionalities powered by the Google Gemini API. Whether you need information, assistance, or just a friendly chat, this bot is here to help.
+* 💬 AI-powered chatbot using **Groq API**
+* ⚡ Fast responses with Groq LLMs
+* 🖥️ Built with **Node.js** and **Express.js**
+* 🎨 Responsive and user-friendly interface
+* 🔒 Environment variable support using `.env`
+* 📦 Simple project structure for easy customization
 
-## Features
-- Natural Language Understanding
-- Contextual Conversations
-- Integration with Google Gemini API
-- Easy Setup and Configuration
+---
 
-## Prerequisites
-Before you begin, ensure you have met the following requirements:
+## 🛠️ Tech Stack
 
-- Node.js (version 18 or higher)
-- npm (Node package manager)
-- Google Gemini API key
+* Node.js
+* Express.js
+* Groq API
+* EJS
+* HTML5
+* CSS3
+* JavaScript
 
-## Installation
-Follow these steps to set up and run the application:
+---
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/nodejs_ai_chatbot.git
-    cd nodejs_ai_chatbot
-    ```
+## 📋 Prerequisites
 
-2. Install the dependencies:
-    ```bash
-    npm install
-    ```
+Before running the project, make sure you have:
 
-3. Add your Google Gemini API key in `.env` file of the root directory:
-    ```env
-    GEMINI_API_KEY=YOUR_API_KEY
-    ```
+* Node.js (v18 or above)
+* npm
+* A Groq API Key
 
-    - First, get the initial code from [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat)
-    - Next, click 'Get API key'
-    - then 'Create API key'
-    - Select your Google Cloud project and click 'Create'
+---
 
-## Usage
-To start the chatbot application, run:
+## ⚙️ Installation
 
-  ```bash
-  node index.js
-  ```
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/catshg/Smart-AI-Chatbot.git
+cd Smart-AI-Chatbot
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create a `.env` file
+
+```env
+GROQ_API_KEY=YOUR_GROQ_API_KEY
+```
+
+> Never commit your `.env` file or API keys to GitHub.
+
+### 4. Start the application
+
+```bash
+node index.js
+```
+
+Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Smart-AI-Chatbot/
+│── public/
+│── views/
+│── routes/
+│── controllers/
+│── config/
+│── index.js
+│── package.json
+│── .env
+```
+
+---
+
+## 🔮 Future Improvements
+
+* User Authentication (JWT)
+* Chat History
+* Markdown Support
+* File Upload (PDF/Image)
+* Dark Mode
+* Streaming AI Responses
+* MongoDB Integration
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Vanshika Gupta**
+
